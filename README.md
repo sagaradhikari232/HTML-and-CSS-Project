@@ -1,1 +1,1 @@
-# HTML-and-CSS-Project
+# College Website
