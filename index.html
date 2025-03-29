@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Butwal Multiple Campus</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">COURSE</a></li>
+          <li><a href="">BLOG</a></li>
+          <li><a href="">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="primary-title">
+      <h1>Butwal Mutiple Campus</h1>
+      <p>With knowledge as light and hard work as guide,
+      We nurture <br> young minds with strength and pride.</p>
+      <a href="" class="hero-btn">Visit Us To Know More</a>
+    </div>
+  </section>
+
+  <section class="course">
+    <h1>Courses We Offer</h1>
+    <p>At Butwal Multiple Campus, we offer a diverse range of courses designed to empower students with knowledge, skills, and
+    real-world experience.</p>
+
+    <div class="row">
+      <div class="course-col">
+        <h3>BBA</h3>
+        <p>Bachelor of Business</p>
+      </div>
+      <div class="course-col">
+        <h3>MBS</h3>
+        <p>Master of Business Studies</p>
+      </div>
+      <div class="course-col">
+        <h3>B.Sc. Physics</h3>
+        <p>B.Sc. General Physical Group (4 year)</p>
+      </div>
+      <div class="course-col">
+        <h3>BICTE</h3>
+        <p>Bachelor of Information Communication Technology Education</p>
+      </div>
+      <div class="course-col">
+        <h3>B.Sc. CSIT</h3>
+        <p>Bachelor of Science in Computer Science and Information Technology</p>
+      </div>
+      <div class="course-col">
+        <h3>BBS</h3>
+        <p>Bachelor of Business Studies</p>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="campus">
+    <h1>Our Global Campus</h1>
+    <p>Welcome to Butwal Multiple Campus, a vibrant and diverse learning environment that goes beyond classrooms and textbooks.</p>
+    <div class="row">
+      <div class="campus-col">
+        <img src="images/image1.png" alt="">
+        <div class="layer"></div>
+      </div>
+        <div class="campus-col">
+          <img src="images/image2.png" alt="">
+          <div class="layer"></div>
+        </div>
+          <div class="campus-col">
+            <img src="images/image1.png" alt="">
+            <div class="layer"></div>
+          </div>
+    </div>
+  </section>
+
+  <!---testimonials-->
+  <section class="testimonials">
+    <h1>What Our Students Says</h1>
+    <p>At Our College, our students are at the heart of everything we do. Their experiences, growth, and success stories reflect the quality of education and opportunities we provide.</p>
+    <div class="row">
+      <div class="testimonial-col">
+        <img src="images/profile.jpg" alt="">
+        <div>
+          <p>Studying at Butwal Multiple Campus has been an incredible experience for me. The B.Sc. CSIT provided me with a strong foundation in technology......</p>
+          <h3>Shalikram Adhikari</h3>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa star-half-empty"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="call-to-action">
+    <h1>Enroll For Our Various Courses</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+  </section>
+
+  <section class="our-location">
+    <h1>Our Location</h1>
+    <iframe
+      class="location-map"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4381.64110392542!2d83.46659914202802!3d27.71073710969226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399686f71446a4b1%3A0x712e7c86b3c8d75!2sButwal%20Multiple%20Campus!5e0!3m2!1sen!2snp!4v1743224983601!5m2!1sen!2snp"
+      style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <!-- <section class="footer">
+    <h4>About Us</h4>
+    <p>We believe that education is more than just acquiring knowledge—it’s about shaping<br>character, fostering innovation, and
+    building a foundation for lifelong success.</p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made by <i class="fa fa-heart-o"></i>Shalikram Adhikari</p>
+  </section> -->
+  <footer>
+    <p>Made by Shalikram Adhikari</p>
+  </footer>
+
+
+  <script>
+    let navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-300px"
+    }
+  </script>
+</body>
+</html>
